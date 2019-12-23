@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    
+
+<head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +11,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
     <link rel="stylesheet" href="./Index.css">
 
     <title>Ristorante Con Fusion: Contact Us</title>
@@ -23,7 +25,7 @@
         <div class="modal-dialog modal-lg" role="content">
             <!-- Modal content-->
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header" style="background: Yellow">
                     <h4 class="modal-title">Login </h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -37,8 +39,8 @@
                             </div>
                             <div class="form-group col-sm-4">
                                 <label class="sr-only" for="exampleInputPassword3">Password</label>
-                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3"
-                                    placeholder="Password">
+                                <input type="password" class="form-control form-control-sm mr-1"
+                                    id="exampleInputPassword3" placeholder="Password">
                             </div>
                             <div class="col-sm-auto">
                                 <div class="form-check">
@@ -63,12 +65,16 @@
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
-                        lipsmacking creations will tickle your culinary senses!</p>
+                    <div class="row">
+                        <h1 class="float-left">Ristorante con Fusion</h1>
+                    </div>
+                    <div class="row" style=padding:0;>
+                        <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
+                            lipsmacking creations will tickle your culinary senses!</p>
+                    </div>
                 </div>
                 <div class="col-12 col-sm row-centered column-centered">
-                <img src="images/logo.png" class="img-fluid">
+                    <img src="images/logo.png" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -79,16 +85,16 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr auto" href="#"><a class="navbar-brand mr-auto" href="#"><img src="./logo.png"
-                        height="30" width="41"></a></a>
+            <a class="navbar-brand mr auto" href="#"><a class="navbar-brand mr-auto" href="#"><img
+                        src="./images/logo.png" height="30" width="41"></a></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><span
-                                class="fa fa-home"></span>home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="AboutUs.html"><span class="fa fa-info"></span>about</a>
+                    <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-home"></span>home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contact-Us.html"><span
-                                class="fa fa-list fa-lg"></span>menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AboutUs.html"><span
+                                class="fa fa-info"></span>about</a>
+                    </li>
+
                     <li class="nav-item active"><a class="nav-link" href="contact-Us.html"><span
                                 class="fa fa-address-card"></span>contact</a></li>
                 </ul>
@@ -96,17 +102,18 @@
                     <a data-toggle="modal" data-target="#loginModal">
                         <span class="fa fa-sign-in"></span> Login</a>
                 </span>
-    
-    
+
+
             </div>
         </div>
     </nav>
 
     <div class="container">
-        <div class= "row">
+        <div class="row">
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
-                <li class="breadcrumb-item"><a href="contact-Us.html"><span class="fa fa-info"></span>Contact Us</a></li>
+                <li class="breadcrumb-item"><a href="contact-Us.html"><span class="fa fa-info"></span>Contact Us</a>
+                </li>
             </ol>
             <div class="col-12">
                 <h3>Contact Us</h3>
@@ -132,13 +139,21 @@
             </div>
             <div class="col-12 col-sm-6 offset-sm-1">
                 <h5>Map of our Location</h5>
+                <br>
+                <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 100px">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.1785387816108!2d114.28273885016957!3d22.30908654814231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040381be582409%3A0x5ca78cbef899f174!2s121%20Clear%20Water%20Bay%20Rd%2C%20Clear%20Water%20Bay%2C%20Hong%20Kong!5e0!3m2!1sen!2sus!4v1577115841514!5m2!1sen!2sus"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
             </div>
-          
+
             <div class="col-12 col-sm-11 offset-sm-1">
                 <div class="btn-group" style="margin:20px 0 20px 0" role="group">
                     <a role="button" class="btn btn-primary" href="tel:+8521234567"><i class="fa fa-phone"></i>Call</a>
                     <a role="button" class="btn btn-info"><i class="fa fa-skype"></i>Skype</a>
-                    <a role="button" class="btn btn-success" href="mailto:mattkrebsemail@gmail.com"><i class="fa fa-envelope-o"></i>Email</a>
+                    <a role="button" class="btn btn-success" href="mailto:mattkrebsemail@gmail.com"><i
+                            class="fa fa-envelope-o"></i>Email</a>
                 </div>
             </div>
         </div>
@@ -149,77 +164,80 @@
             </div>
             <div class="col-12 col-md-9">
                 <form style="margin:20px 0 20px 0">
-                    <div class="form group row">
+                    <div class="form group row" style="padding:5px">
                         <label for="firstname" class="col-md-2 col-form-label">First Name</label>
                         <div class="col-md-10">
-                            <input type= "text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                            <input type="text" class="form-control" id="firstname" name="firstname"
+                                placeholder="First Name">
                         </div>
                     </div>
-                    <div class="form group row">
+                    <div class="form group row" style="padding:5px">
                         <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
                         <div class="col-md-10">
-                             <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
-                         </div>
+                            <input type="text" class="form-control" id="lastname" name="lastname"
+                                placeholder="Last Name">
+                        </div>
                     </div>
-                    <div class="form group row">
+                    <div class="form group row" style="padding:5px">
                         <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
                         <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
+                            <input type="tel" class="form-control" id="areacode" name="areacode"
+                                placeholder="Area Code">
                         </div>
                         <div class="col-7 col-md-7">
                             <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
                         </div>
                     </div>
-                    <div class="form group row">
+                    <div class="form group row" style="padding:5px">
                         <label for="emailid" class="col-md-2 col-form-label">Email</label>
                         <div class="col-md-10">
                             <input type="email" class="form-control" id="emailid" name="emailid" placeholder="email">
                         </div>
                     </div>
-                    <div class="form group row">
-                            <div class="col-md-6 offset-md-2">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
-                                        <label class="form-check-label" for="approve">
-                                            <strong>May we contact you?</strong>
-                                        </label>
-                                </div>
+                    <div class="form group row" style="padding:5px">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve">
+                                    <strong>May we contact you?</strong>
+                                </label>
                             </div>
-                            <div class="col-md-3 offset-md-1">
-                                <select class="form-control">
-                                    <option>Tel.</option>
-                                    <option>Email</option>
-                                </select>
-                            
-                            
-                            </div>
-                     </div>
-                    <div class="form group row">
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email</option>
+                            </select>
+
+
+                        </div>
+                    </div>
+                    <div class="form group row" style="padding:5px">
                         <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
                         <div class="col-md-10">
                             <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
                         </div>
                     </div>
-                    
-                    </div>
-                           
-                            
 
-                    </div>
-                    <div class="form-group row">
-                        <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">
-                                Send Feedback
-                            </button>
-                    
-                        </div>
-
-
-                </form>
             </div>
-            <div class="col-12 col-md">
-            </div>
+
+
+
         </div>
+        <div class="form-group row">
+            <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-primary">
+                    Send Feedback
+                </button>
+
+            </div>
+
+
+            </form>
+        </div>
+        <div class="col-12 col-md">
+        </div>
+    </div>
 
     </div>
 
@@ -231,7 +249,6 @@
                     <ul class="list-unstyled">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="AboutUs.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
                         <li><a href="contact-Us.html">Contact</a></li>
                     </ul>
                 </div>

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/matt/Desktop/HTML-JS/WebSite/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5503,
+		"liveServer.settings.multiRootWorkspaceName": "Restaurant-Website"
+	}
+}
